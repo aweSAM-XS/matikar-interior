@@ -348,11 +348,14 @@
      text-align: center;
 }
  .logo {
+     display: block;
      float: left;
      height: 1rem;
      width: 5rem;
 }
  nav.main-menu {
+     display: block;
+     padding-left: 70px;
      float: right;
      margin-left: 0;
 }
@@ -1159,8 +1162,9 @@ background-repeat: no-repeat;
 
 .best_img figure img {
      width: 100%;
-     border: #eec668 solid 31px;
-     border-radius: 258px;
+     height: 50%;
+     border: #eec668 solid 20px;
+     border-radius: 120px;
 }
 
 .best_img h4 {
